@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{4111F1A4-81E8-458B-821A-F28A29A9D6D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brickbreaker", "brickbreaker\brickbreaker.vcxproj", "{633A764C-E9D9-4B18-AEB3-A8128ED8F69F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetris", "Tetris\Tetris.vcxproj", "{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4111F1A4-81E8-458B-821A-F28A29A9D6D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4111F1A4-81E8-458B-821A-F28A29A9D6D6}.Debug|Win32.Build.0 = Debug|Win32
+		{4111F1A4-81E8-458B-821A-F28A29A9D6D6}.Release|Win32.ActiveCfg = Release|Win32
+		{4111F1A4-81E8-458B-821A-F28A29A9D6D6}.Release|Win32.Build.0 = Release|Win32
+		{633A764C-E9D9-4B18-AEB3-A8128ED8F69F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{633A764C-E9D9-4B18-AEB3-A8128ED8F69F}.Debug|Win32.Build.0 = Debug|Win32
+		{633A764C-E9D9-4B18-AEB3-A8128ED8F69F}.Release|Win32.ActiveCfg = Release|Win32
+		{633A764C-E9D9-4B18-AEB3-A8128ED8F69F}.Release|Win32.Build.0 = Release|Win32
+		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Debug|Win32.Build.0 = Debug|Win32
+		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Release|Win32.ActiveCfg = Release|Win32
+		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
