@@ -90,7 +90,7 @@ void SampleListener::onFrame(const Controller& controller) {
 			  if (mBoard.IsPossibleMovement (mGame.mPosX, mGame.mPosY, mGame.mPiece, (mGame.mRotation + 1) % 4))
 					mGame.mRotation = (mGame.mRotation + 1) % 4;
 			  SampleListener::lastMove = frame.timestamp();
-		  } else if () //check direction
+		  } 
 	  }
   }
 }

@@ -1,11 +1,25 @@
-﻿Build started 1/27/2013 12:34:18 AM.
+﻿Build started 1/28/2013 3:58:19 PM.
      1>Project "C:\LEAP\cpp\brickbreaker\brickbreaker.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
-         Source.cpp
-     1>Source.cpp(3): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\LEAP\cpp\Release\brickbreaker.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\LEAP\cpp\Release\brickbreaker.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\LEAP\cpp\Release\brickbreaker.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         SDL\lib\SDL.lib
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glVertex2f@8
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glOrtho@48
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glViewport@16
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glColor4ub@16
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+     1>C:\LEAP\cpp\Release\brickbreaker.exe : fatal error LNK1120: 14 unresolved externals
      1>Done Building Project "C:\LEAP\cpp\brickbreaker\brickbreaker.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.99
+Time Elapsed 00:00:00.15

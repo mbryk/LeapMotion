@@ -1,8 +1,10 @@
 //Copyright by NOONE BITCHES FREE RIGHTS TO ALL
 
-#include "SDL/SDL.h"
-#include "SDL/SDL_opengl.h"
+#include "SDL/include/SDL.h"	
+#include "SDL/include/SDL_opengl.h"	
 #include <iostream>
+#pragma comment (lib, "SDL/lib/SDL.lib")
+
 
 bool checkCollision(float Ax, float Ay, float Aw, float Ah, float Bx, float By, float Bw, float Bh)
 {
@@ -23,7 +25,12 @@ struct Brick
 	bool alive;
 };
 
-int main( int argc, char* args[] )
+#ifndef LINUX
+int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)	// Linux users should quit this line
+#else
+int main()
+#endif
+// int main ()  // Linux users should use this line instead the previous one
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
 

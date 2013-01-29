@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brickbreaker", "brickbreake
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetris", "Tetris\Tetris.vcxproj", "{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mouse", "mouse\mouse.vcxproj", "{ACD470F0-0A09-46B7-BD59-B8457208F871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Debug|Win32.Build.0 = Debug|Win32
 		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Release|Win32.ActiveCfg = Release|Win32
 		{ABA0F0F9-59BB-424B-9C90-668D5FE89C05}.Release|Win32.Build.0 = Release|Win32
+		{ACD470F0-0A09-46B7-BD59-B8457208F871}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD470F0-0A09-46B7-BD59-B8457208F871}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD470F0-0A09-46B7-BD59-B8457208F871}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD470F0-0A09-46B7-BD59-B8457208F871}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
